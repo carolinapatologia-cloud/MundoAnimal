@@ -1,0 +1,63 @@
+.menuContainer {
+  background-color: rgba(0, 128, 128, 0.3);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center; /* centraliza o nav */
+  align-items: center; /* alinha verticalmente */
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* centraliza o conteúdo do nav */
+  align-items: center;
+}
+
+.lista {
+  list-style: none; /* remove os marcadores */
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;
+  gap: 80px; /* espaçamento entre os itens */
+  color: white !important;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem; /* aumenta o tamanho da fonte */
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+/* Efeito de hover suave */
+.lista li {
+  cursor: pointer;
+  position: relative;
+}
+
+.lista li:hover {
+  color: #ffd700;
+  transform: scale(1.1);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+/* Linha animada sob o texto */
+.lista li::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffd700;
+  transition: width 0.3s ease;
+}
+
+.lista li:hover::after {
+  width: 100%;
+}

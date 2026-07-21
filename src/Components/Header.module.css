@@ -1,0 +1,27 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column; /* empilha título e subtítulo */
+  justify-content: center; /* centraliza verticalmente */
+  align-items: center; /* centraliza horizontalmente */
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+               'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(44, 99, 94);
+  margin: 0;
+}
+
+.subtitulo {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: #39063d;
+  margin: 0;
+}

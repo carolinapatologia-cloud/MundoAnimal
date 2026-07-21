@@ -1,0 +1,21 @@
+.titulo {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(81, 157, 219, 0.3);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);;
+}
+
+.p {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(81, 157, 219, 0.3);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);;
+}
+
+.image {
+    size: 200px;
+    width: 100px;
+    margin-top: 10px;
+}

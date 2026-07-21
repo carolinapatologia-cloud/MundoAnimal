@@ -1,0 +1,11 @@
+body {
+  background-image: url('/creche.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.app-container {
+  padding-bottom: 80px; 
+}

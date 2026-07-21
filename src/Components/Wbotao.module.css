@@ -1,0 +1,23 @@
+.whatsappButton {
+  display: inline-block;
+  background-color: #25d366; /* verde WhatsApp */
+  color: white;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+.whatsappButton:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.05);
+}
+
+.whatsappButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
