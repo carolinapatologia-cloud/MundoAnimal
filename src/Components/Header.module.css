@@ -1,8 +1,8 @@
 .headerContainer {
   display: flex;
-  flex-direction: column; /* empilha título e subtítulo */
-  justify-content: center; /* centraliza verticalmente */
-  align-items: center; /* centraliza horizontalmente */
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
   text-align: center;
   width: 100%;
   padding: 20px 0;

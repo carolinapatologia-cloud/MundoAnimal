@@ -7,46 +7,52 @@
   z-index: 10;
   padding: 15px 0;
   display: flex;
-  justify-content: center; /* centraliza o nav */
-  align-items: center; /* alinha verticalmente */
+  justify-content: center; 
+  align-items: center; 
 }
 
 .nav {
   width: 100%;
   display: flex;
-  justify-content: center; /* centraliza o conteúdo do nav */
+  justify-content: center; 
   align-items: center;
 }
 
 .lista {
-  list-style: none; /* remove os marcadores */
+  list-style: none; 
   display: flex;
-  justify-content: center; /* centraliza horizontalmente */
+  flex-direction: row; 
+  justify-content: center; 
   align-items: center;
-  gap: 80px; /* espaçamento entre os itens */
-  color: white !important;
+  gap: 40px; 
   margin: 0;
   padding: 0;
-  font-size: 1.5rem; /* aumenta o tamanho da fonte */
+}
+
+
+.lista li a {
+  color: #ffffff !important;
+  text-decoration: none; 
+  font-size: 1.2rem; 
   font-weight: bold;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   transition: all 0.3s ease;
+  display: inline-block;
 }
 
-/* Efeito de hover suave */
-.lista li {
-  cursor: pointer;
-  position: relative;
-}
 
-.lista li:hover {
-  color: #ffd700;
+.lista li a:hover {
+  color: #ffd700 !important;
   transform: scale(1.1);
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
 }
 
-/* Linha animada sob o texto */
+
+.lista li {
+  position: relative;
+}
+
 .lista li::after {
   content: '';
   position: absolute;
@@ -61,3 +67,4 @@
 .lista li:hover::after {
   width: 100%;
 }
+

@@ -9,11 +9,11 @@ export default function Menu() {
         <ul className={styles.lista}>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/sobre">Sobre o Mundo Animal</Link></li>
-          <li><Link to="/novidades">Matrículas</Link></li>
+          <li><Link to="/matriculas">Matrículas</Link></li>
           <li><Link to="/galeria">Galeria de Imagens</Link></li>
           <li><Link to="/eventos">Eventos</Link></li>
           <li><Link to="/novidades">Novidades</Link></li>
-          <li><Link to="/novidades">Espie seu PET</Link></li>
+          <li><Link to="/cameras">Espie seu PET</Link></li>
          </ul>
       </nav>
     </div>

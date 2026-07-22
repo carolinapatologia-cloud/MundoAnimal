@@ -3,6 +3,7 @@ import "../App.css";
 import Footer from "../components/Footer.jsx";
 import Wbotao from "../components/Wbotao.jsx";
 import styles from "./Galeria.module.css";
+import Menu from "../components/Menu.jsx";
 
 export default function Galeria() {
   
@@ -16,7 +17,7 @@ export default function Galeria() {
   ];
 
   return (
-    <div className="app-container">
+  <><Menu /><div className="app-container">
       <h1>Galeria de Imagens</h1>
       <div className="galeria-grid">
         {imagens.map((src, index) => (
@@ -27,6 +28,6 @@ export default function Galeria() {
       </div>
       <Footer />
       <Wbotao />
-    </div>
+    </div></>
   );
 }
