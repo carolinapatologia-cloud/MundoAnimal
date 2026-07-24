@@ -1,9 +1,9 @@
 import React from "react";
 import "../App.css";
-import Footer from "../components/Footer.jsx";
-import Wbotao from "../components/Wbotao.jsx";
+import Footer from "../Components/Footer.jsx";
+import Wbotao from "../Components/Wbotao.jsx";
 import styles from "./Galeria.module.css";
-import Menu from "../components/Menu.jsx";
+import Menu from "../Components/Menu.jsx";
 
 export default function Galeria() {
   
