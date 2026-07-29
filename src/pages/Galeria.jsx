@@ -4,12 +4,16 @@ import Footer from "../Components/Footer.jsx";
 import Wbotao from "../Components/Wbotao.jsx";
 import styles from "./Galeria.module.css";
 import Menu from "../Components/Menu.jsx";
+import Alunos from "../Components/Alunos.jsx";
+import Efeito from "../Components/Efeito.jsx"; 
 
 export default function Galeria() {
   
   const imagens = [
     "quokka.png",
     "https://placedog.net/400/300",
+    "https://placedog.net/500",
+    "https://placedog.net/500/g",
     "https://s4.static.brasilescola.uol.com.br/img/2019/09/panda.jpg",
     "https://i.pinimg.com/236x/10/21/f7/1021f779f177870dceea70dc0f9a6e9c.jpg",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWdQ1v6CyDpPUo_VUSR9gWriEppQdJCs2_Kk0QW_gpUv55jEBGbHSILFk2&s=10",
@@ -26,6 +30,8 @@ export default function Galeria() {
           </div>
         ))}
       </div>
+      <Alunos/>
+      <Efeito/>
       <Footer />
       <Wbotao />
     </div></>

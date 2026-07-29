@@ -1,0 +1,12 @@
+.Container {
+    background-color: rgba(0, 128, 128, 0.3);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }

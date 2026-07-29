@@ -8,6 +8,9 @@
   import Wbotao from "../Components/Wbotao.jsx";
   import Favoritecolor from "../Components/Favoritecolor.jsx";
   import Botao from "../Components/Botao.jsx";
+  import Contador from "../Components/Contador.jsx";
+  import Efeito from "../Components/Efeito.jsx"; 
+
 
 
   function App() {
@@ -33,6 +36,8 @@
               imagem="https://s4.static.brasilescola.uol.com.br/img/2019/09/panda.jpg"
             />
           </div>
+          <Contador/>
+          <Efeito/>
           <Botao />  
           <Banner />
           <Favoritecolor/>
